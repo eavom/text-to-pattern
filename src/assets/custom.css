@@ -1,0 +1,67 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background: #e8f5e9; 
+    color: #343a40; 
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;			
+}
+
+#container,
+#outputContainer {            
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #dee2e6;
+    border-radius: 15px;
+    padding: 1rem;
+    margin: 20px auto;
+}
+
+#container {
+    width: 50%;
+    max-width: 90%;
+    background: #17424d;
+    font-family: "Patrick Hand SC", serif;
+}
+
+#outputContainer {
+    width: 70%;
+    max-width: 50%;
+    background: #032d36;
+}
+
+table {
+    margin: 20px auto;
+    text-align: left;			
+    --bs-table-bg: transparent !important; 
+
+}
+
+p {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+input[type="text"].form-control {
+    padding: 8px;
+}
+
+button.btn {
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.text-white {
+    color: white;
+}
+
+.pad-left {
+    padding-left: 0.5rem;
+}
+
+.pad-right {
+    padding-right: 0.5rem;
+}
